@@ -9,6 +9,7 @@ The implementation is rather complex and this domain in software development is 
 
 * https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/
 * https://blog.scrt.ch/2020/07/15/engineering-antivirus-evasion-part-ii/
+* https://blog.scrt.ch/2022/04/19/3432/ (part III)
 
 
 
