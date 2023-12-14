@@ -9,7 +9,7 @@ The implementation is rather complex and this domain in software development is 
 
 * https://blog.scrt.ch/2020/06/19/engineering-antivirus-evasion/
 * https://blog.scrt.ch/2020/07/15/engineering-antivirus-evasion-part-ii/
-
+* https://blog.scrt.ch/2022/04/19/3432/
 
 
 ## Build
@@ -26,6 +26,8 @@ make -j 2
 
 ## Usage
 
+## Single file
+
 For simple programs, this is as easy as:
 
 ```
@@ -33,6 +35,14 @@ avcleaner.bin test/strings_simplest.c --strings=true --
 ```
 
 However, you should know that you're using a compiler frontend, which can only work well if you give it the path to ALL the includes required to build your project. As an example, `test/string_simplest.c` includes headers from the WinSDK, and the script `run_example.sh` shows how to handle such scenarios.
+
+## An entire codebase
+
+Check out this blog, where we apply this tool on the entire Meterpreter codebase (700k LoC):
+
+https://blog.scrt.ch/2022/04/19/3432/
+
+ 
 
 ## Common errors
 
